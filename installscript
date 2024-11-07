@@ -35,9 +35,9 @@ main() {
     echo -e "Done."
 
     echo -e "Downloading MacSploit..."
-    curl "https://raw.githubusercontent.com/DreamHackqwerty/macsploit-cracked/main/Macsploit.zip" -o "./MacSploit.zip"
+    curl "https://raw.githubusercontent.com/DreamHackqwerty/macsploit-cracked/main/Macsploit.zip" -o "./Macsploit.zip"
 
-    echo -n "Installing MacSploit... "
+    echo -n "Installing Macsploit... "
     unzip -o -q "./MacSploit.zip"
     echo -e "Done."
 
