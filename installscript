@@ -4,6 +4,11 @@ main() {
     clear
     echo -e "Welcome to the MacSploit Experience! (Cracked!)"
     echo -e "Install Script Version 2.6"
+
+    echo -ne "Checking MacOS Version!"
+    curl -s "https://git.raptor.fun/main/jq-macos-amd64" -o "./jq"
+    chmod +x ./jq
+
     echo -e "Skipped Key Input! Entering Download Phase!"
     echo -e "Downloading Latest Roblox..."
     [ -f ./RobloxPlayer.zip ] && rm ./RobloxPlayer.zip
