@@ -38,7 +38,7 @@ main() {
     curl "https://raw.githubusercontent.com/DreamHackqwerty/macsploit-cracked/main/Macsploit.zip" -o "./Macsploit.zip"
 
     echo -n "Installing Macsploit... "
-    unzip -o -q "./MacSploit.zip"
+    unzip -o -q "./Macsploit.zip"
     echo -e "Done."
 
     echo -n "Updating Dylib..."
